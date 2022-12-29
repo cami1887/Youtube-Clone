@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      .container {
+        display: flex;
+        flex-direction: row;
+        font-size: 25px;
+        font-family: arial;
+        width: 650px;
+      }
+
+      img {
+        border-radius: 50%;
+        height: 88px;
+      }
+
+      .profile-name {
+        font-weight: bold;
+        padding-bottom: 8px;
+      }
+
+      span {
+        font-weight: normal;
+        color: rgb(96, 96, 96);
+      }
+
+      .text-container {
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+      }
+
+      .post-row {
+        display: flex;
+        border-style: solid;
+        border-color:rgb(211, 211, 211);
+        border-width: 1px;
+        width: 540px;
+        border-radius: 20px;
+      }
+
+      .profile-text {
+        padding-bottom: 20px;
+      }
+
+    .post-image {
+        width: 250px;
+        background-color: rgb(211, 211, 211);
+        border-radius: 20px 0px 0px 20px;
+    }
+
+      .post-text {
+        padding: 25px;
+        line-height: 30px;
+      }
+
+      .post-url {
+        padding-bottom: 5px;
+        color:rgb(96, 96, 96);
+      }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="/profiles/channel-1.jpeg">
+        <div class="text-container">
+            <div class="profile-text">
+                <div class="profile-name">supersimple.dev <span>@SuperSimpleDev</span></div>
+                <div class="profile-comment">What is backend web development? A complete overview. New video is up!</div>
+            </div>
+            
+            <div class="post-row">
+                <div class="post-image"></div>
+                <div class="post-text">
+                    <div class="post-url">youtube.com</div>
+                    <div class="post-title">Backend web development - a complete overview (2021)</div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>

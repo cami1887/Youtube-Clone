@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body {
+            height: 3000px;
+            font-size: 16px;
+            font-family: arial;
+        }
+
+        .container {
+            position: relative;
+            width: 300px;
+            height: 300px;
+        }
+
+        img {
+            object-fit: cover;
+            width: 300px;
+            height: 300px;
+        }
+
+        .discount {
+            position: absolute;
+            background-color: black;
+            color: white;
+            padding: 8px 16px;
+            top: 15px;
+            right: 0px;
+
+        }
+
+        .background {
+            position: absolute;
+            background-color: rgba(255, 211, 211, 0.747);
+            bottom: 0;
+            right: 0;
+            left: 0;
+            top: 200px;
+        }
+
+        button {
+            position: absolute;
+            top: 25%;
+            right: 35%;
+            padding: 8px 13px;
+            border-width: 2px;
+            border-style: solid;
+        }
+
+    </style>
+</head>
+<body>
+        <div class="container">
+            <img src="/thumbnails/thumbnail-8.webp">
+            <div class="discount">20% OFF</div>
+            <div class="background">
+                <button>Add to Cart</button>
+            </div>   
+        </div>
+</body>
+</html>

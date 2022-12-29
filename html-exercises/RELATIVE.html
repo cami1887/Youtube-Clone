@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*  I'm trying to set the img element relative to everything so everything can sit ontop. 
+            In Lesson15.html I was able to achieve the design I wanted, 
+            but I don't understand why this method doesn't work (I tried this initially).
+        */
+
+        img { 
+            position: relative;
+            height: 300px;
+        }
+
+        .discount {
+            position: absolute;
+            top: 20px;
+            right: 0;
+        }
+
+        .overlay-section {
+            position: absolute;
+        }
+
+        .overlay {
+            position: relative;
+            top: 50px;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            background-color: rgba(0, 255, 255, 0.233);
+        }
+
+        button {
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <img src="/profiles/channel-7.jpeg">
+    <div class="discount">20% OFF</div>
+    <div class="overlay-section">
+        <div class="overlay"></div>
+        <button>Add to Cart</button>
+    </div>
+</body>
+</html>
